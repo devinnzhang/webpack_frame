@@ -1,0 +1,33 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0}
+body{font:14px "Microsoft YaHei","Arial Narrow",HELVETICA;background:#fff;-webkit-text-size-adjust:100%}
+a{color:#172c45;text-decoration:none}
+a:hover{text-decoration:none}
+em{font-style:normal}
+li{list-style:none}
+img{border:0;vertical-align:middle}
+table{border-collapse:collapse;border-spacing:0}
+p{word-wrap:break-word}
+
+html, body{
+  font-family: "Microsoft Yahei";
+  //background: #fff;
+}
+#home{
+  .cssImg{
+    background: url(./images/example.png) no-repeat;
+    width: 500px;
+    height: 281px;
+  }
+}
+
+
+@media (-webkit-min-device-pixel-ratio: 1) and (max-width: 1450px){
+  #home{
+   #header .fit-header .navigation .logo{
+     margin-left: 20px;
+   }
+  }
+  #home #header .fit-header .navigation > li{
+    padding: 0px 20px;
+  }
+}

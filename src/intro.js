@@ -1,0 +1,1 @@
+export default 'This is quick webpack frame!';
